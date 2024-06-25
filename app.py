@@ -3,6 +3,7 @@ import requests
 import discord
 import json
 import random
+import ossaudiodev
 
 from replit import db
 
@@ -121,6 +122,7 @@ tech_keywords = [
     "Smart Contracts",
     "Distributed Apps (DApps)"
 ]
+
 tech_learning_links = [
     "https://www.coursera.org/learn/ai-for-everyone",
     "https://www.coursera.org/learn/machine-learning",
